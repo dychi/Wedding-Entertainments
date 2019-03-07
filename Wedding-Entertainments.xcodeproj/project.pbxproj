@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42A6BCCA2231915B00F25689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6BCC92231915B00F25689 /* AppDelegate.swift */; };
+		42A6BCCC2231915B00F25689 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A6BCCB2231915B00F25689 /* art.scnassets */; };
+		42A6BCCE2231915B00F25689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6BCCD2231915B00F25689 /* ViewController.swift */; };
+		42A6BCD12231915B00F25689 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A6BCCF2231915B00F25689 /* Main.storyboard */; };
+		42A6BCD32231915E00F25689 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42A6BCD22231915E00F25689 /* Assets.xcassets */; };
+		42A6BCD62231915E00F25689 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42A6BCD42231915E00F25689 /* LaunchScreen.storyboard */; };
+		42A6BCE12231915F00F25689 /* Wedding_EntertainmentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6BCE02231915F00F25689 /* Wedding_EntertainmentsTests.swift */; };
+		42A6BCEC2231915F00F25689 /* Wedding_EntertainmentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42A6BCEB2231915F00F25689 /* Wedding_EntertainmentsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42A6BCDD2231915F00F25689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A6BCBE2231915B00F25689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A6BCC52231915B00F25689;
+			remoteInfo = "Wedding-Entertainments";
+		};
+		42A6BCE82231915F00F25689 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42A6BCBE2231915B00F25689 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42A6BCC52231915B00F25689;
+			remoteInfo = "Wedding-Entertainments";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42A6BCC62231915B00F25689 /* Wedding-Entertainments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wedding-Entertainments.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A6BCC92231915B00F25689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42A6BCCB2231915B00F25689 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		42A6BCCD2231915B00F25689 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42A6BCD02231915B00F25689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42A6BCD22231915E00F25689 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42A6BCD52231915E00F25689 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42A6BCD72231915E00F25689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A6BCDC2231915F00F25689 /* Wedding-EntertainmentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wedding-EntertainmentsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A6BCE02231915F00F25689 /* Wedding_EntertainmentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedding_EntertainmentsTests.swift; sourceTree = "<group>"; };
+		42A6BCE22231915F00F25689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A6BCE72231915F00F25689 /* Wedding-EntertainmentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wedding-EntertainmentsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42A6BCEB2231915F00F25689 /* Wedding_EntertainmentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wedding_EntertainmentsUITests.swift; sourceTree = "<group>"; };
+		42A6BCED2231915F00F25689 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42A6BCC32231915B00F25689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A6BCD92231915F00F25689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A6BCE42231915F00F25689 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42A6BCBD2231915B00F25689 = {
+			isa = PBXGroup;
+			children = (
+				42A6BCC82231915B00F25689 /* Wedding-Entertainments */,
+				42A6BCDF2231915F00F25689 /* Wedding-EntertainmentsTests */,
+				42A6BCEA2231915F00F25689 /* Wedding-EntertainmentsUITests */,
+				42A6BCC72231915B00F25689 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42A6BCC72231915B00F25689 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42A6BCC62231915B00F25689 /* Wedding-Entertainments.app */,
+				42A6BCDC2231915F00F25689 /* Wedding-EntertainmentsTests.xctest */,
+				42A6BCE72231915F00F25689 /* Wedding-EntertainmentsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42A6BCC82231915B00F25689 /* Wedding-Entertainments */ = {
+			isa = PBXGroup;
+			children = (
+				42A6BCC92231915B00F25689 /* AppDelegate.swift */,
+				42A6BCCB2231915B00F25689 /* art.scnassets */,
+				42A6BCCD2231915B00F25689 /* ViewController.swift */,
+				42A6BCCF2231915B00F25689 /* Main.storyboard */,
+				42A6BCD22231915E00F25689 /* Assets.xcassets */,
+				42A6BCD42231915E00F25689 /* LaunchScreen.storyboard */,
+				42A6BCD72231915E00F25689 /* Info.plist */,
+			);
+			path = "Wedding-Entertainments";
+			sourceTree = "<group>";
+		};
+		42A6BCDF2231915F00F25689 /* Wedding-EntertainmentsTests */ = {
+			isa = PBXGroup;
+			children = (
+				42A6BCE02231915F00F25689 /* Wedding_EntertainmentsTests.swift */,
+				42A6BCE22231915F00F25689 /* Info.plist */,
+			);
+			path = "Wedding-EntertainmentsTests";
+			sourceTree = "<group>";
+		};
+		42A6BCEA2231915F00F25689 /* Wedding-EntertainmentsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				42A6BCEB2231915F00F25689 /* Wedding_EntertainmentsUITests.swift */,
+				42A6BCED2231915F00F25689 /* Info.plist */,
+			);
+			path = "Wedding-EntertainmentsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42A6BCC52231915B00F25689 /* Wedding-Entertainments */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A6BCF02231915F00F25689 /* Build configuration list for PBXNativeTarget "Wedding-Entertainments" */;
+			buildPhases = (
+				42A6BCC22231915B00F25689 /* Sources */,
+				42A6BCC32231915B00F25689 /* Frameworks */,
+				42A6BCC42231915B00F25689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wedding-Entertainments";
+			productName = "Wedding-Entertainments";
+			productReference = 42A6BCC62231915B00F25689 /* Wedding-Entertainments.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42A6BCDB2231915F00F25689 /* Wedding-EntertainmentsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A6BCF32231915F00F25689 /* Build configuration list for PBXNativeTarget "Wedding-EntertainmentsTests" */;
+			buildPhases = (
+				42A6BCD82231915F00F25689 /* Sources */,
+				42A6BCD92231915F00F25689 /* Frameworks */,
+				42A6BCDA2231915F00F25689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A6BCDE2231915F00F25689 /* PBXTargetDependency */,
+			);
+			name = "Wedding-EntertainmentsTests";
+			productName = "Wedding-EntertainmentsTests";
+			productReference = 42A6BCDC2231915F00F25689 /* Wedding-EntertainmentsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		42A6BCE62231915F00F25689 /* Wedding-EntertainmentsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42A6BCF62231915F00F25689 /* Build configuration list for PBXNativeTarget "Wedding-EntertainmentsUITests" */;
+			buildPhases = (
+				42A6BCE32231915F00F25689 /* Sources */,
+				42A6BCE42231915F00F25689 /* Frameworks */,
+				42A6BCE52231915F00F25689 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42A6BCE92231915F00F25689 /* PBXTargetDependency */,
+			);
+			name = "Wedding-EntertainmentsUITests";
+			productName = "Wedding-EntertainmentsUITests";
+			productReference = 42A6BCE72231915F00F25689 /* Wedding-EntertainmentsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42A6BCBE2231915B00F25689 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Daichi Yamaoka";
+				TargetAttributes = {
+					42A6BCC52231915B00F25689 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					42A6BCDB2231915F00F25689 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 42A6BCC52231915B00F25689;
+					};
+					42A6BCE62231915F00F25689 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 42A6BCC52231915B00F25689;
+					};
+				};
+			};
+			buildConfigurationList = 42A6BCC12231915B00F25689 /* Build configuration list for PBXProject "Wedding-Entertainments" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42A6BCBD2231915B00F25689;
+			productRefGroup = 42A6BCC72231915B00F25689 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42A6BCC52231915B00F25689 /* Wedding-Entertainments */,
+				42A6BCDB2231915F00F25689 /* Wedding-EntertainmentsTests */,
+				42A6BCE62231915F00F25689 /* Wedding-EntertainmentsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42A6BCC42231915B00F25689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A6BCCC2231915B00F25689 /* art.scnassets in Resources */,
+				42A6BCD62231915E00F25689 /* LaunchScreen.storyboard in Resources */,
+				42A6BCD32231915E00F25689 /* Assets.xcassets in Resources */,
+				42A6BCD12231915B00F25689 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A6BCDA2231915F00F25689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A6BCE52231915F00F25689 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42A6BCC22231915B00F25689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A6BCCE2231915B00F25689 /* ViewController.swift in Sources */,
+				42A6BCCA2231915B00F25689 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A6BCD82231915F00F25689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A6BCE12231915F00F25689 /* Wedding_EntertainmentsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42A6BCE32231915F00F25689 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42A6BCEC2231915F00F25689 /* Wedding_EntertainmentsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42A6BCDE2231915F00F25689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A6BCC52231915B00F25689 /* Wedding-Entertainments */;
+			targetProxy = 42A6BCDD2231915F00F25689 /* PBXContainerItemProxy */;
+		};
+		42A6BCE92231915F00F25689 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42A6BCC52231915B00F25689 /* Wedding-Entertainments */;
+			targetProxy = 42A6BCE82231915F00F25689 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42A6BCCF2231915B00F25689 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A6BCD02231915B00F25689 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42A6BCD42231915E00F25689 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42A6BCD52231915E00F25689 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42A6BCEE2231915F00F25689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42A6BCEF2231915F00F25689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42A6BCF12231915F00F25689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AJXZGXH2C;
+				INFOPLIST_FILE = "Wedding-Entertainments/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "d-chan.Wedding-Entertainments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		42A6BCF22231915F00F25689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AJXZGXH2C;
+				INFOPLIST_FILE = "Wedding-Entertainments/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "d-chan.Wedding-Entertainments";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		42A6BCF42231915F00F25689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AJXZGXH2C;
+				INFOPLIST_FILE = "Wedding-EntertainmentsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "d-chan.Wedding-EntertainmentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wedding-Entertainments.app/Wedding-Entertainments";
+			};
+			name = Debug;
+		};
+		42A6BCF52231915F00F25689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AJXZGXH2C;
+				INFOPLIST_FILE = "Wedding-EntertainmentsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "d-chan.Wedding-EntertainmentsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wedding-Entertainments.app/Wedding-Entertainments";
+			};
+			name = Release;
+		};
+		42A6BCF72231915F00F25689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AJXZGXH2C;
+				INFOPLIST_FILE = "Wedding-EntertainmentsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "d-chan.Wedding-EntertainmentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wedding-Entertainments";
+			};
+			name = Debug;
+		};
+		42A6BCF82231915F00F25689 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7AJXZGXH2C;
+				INFOPLIST_FILE = "Wedding-EntertainmentsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "d-chan.Wedding-EntertainmentsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Wedding-Entertainments";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42A6BCC12231915B00F25689 /* Build configuration list for PBXProject "Wedding-Entertainments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A6BCEE2231915F00F25689 /* Debug */,
+				42A6BCEF2231915F00F25689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A6BCF02231915F00F25689 /* Build configuration list for PBXNativeTarget "Wedding-Entertainments" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A6BCF12231915F00F25689 /* Debug */,
+				42A6BCF22231915F00F25689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A6BCF32231915F00F25689 /* Build configuration list for PBXNativeTarget "Wedding-EntertainmentsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A6BCF42231915F00F25689 /* Debug */,
+				42A6BCF52231915F00F25689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42A6BCF62231915F00F25689 /* Build configuration list for PBXNativeTarget "Wedding-EntertainmentsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42A6BCF72231915F00F25689 /* Debug */,
+				42A6BCF82231915F00F25689 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42A6BCBE2231915B00F25689 /* Project object */;
+}
